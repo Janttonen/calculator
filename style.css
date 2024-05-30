@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  align-items: center;
+  height: auto;
+}
+
+header {
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.calculator {
+  background-color: rgb(0, 0, 0);
+  max-width: 340px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+/* Table styling */
+table {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+/* Styling for display text fields */
+.display {
+  width: 260px;
+  padding: 10px;
+  border: none;
+  font-size: 23px;
+  text-align: right;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/* Add small margin under textfields */
+.userInput {
+  margin-bottom: 5px;
+  width: 260px;
+  padding: 10px;
+  border: none;
+  font-size: 23px;
+  text-align: right;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/* Button styling */
+input[type="button"].operator {
+  background-color: rgb(83, 83, 83);
+  color: rgb(255, 255, 255);
+}
+
+input[type="button"].clear {
+  background-color: rgb(206, 87, 68);
+  color: rgb(255, 255, 255);
+}
+
+input[type="button"].delete {
+  background-color: rgb(56, 55, 60);
+  color: rgb(255, 255, 255);
+}
+
+input[type="button"].equals {
+  background-color: rgb(14, 166, 67);
+  color: rgb(255, 255, 255);
+}
+
+input[type="button"] {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(56, 55, 60);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
